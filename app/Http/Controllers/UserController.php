@@ -72,6 +72,8 @@ class UserController extends Controller
 
                 return redirect('/user/dashboard');
             }
+        }else{
+           echo "<h1> not found</h1>";
         }
     }
 
